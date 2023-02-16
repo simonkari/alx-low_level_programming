@@ -2,7 +2,7 @@
 /**
  * main - A program that prints the size of various computer types
  * Return 0 (Success)
- * The main function returns an integer, which represents the exit status. return 0 to indicate success.
+ * The main function returns an integer, return 0 to indicate success.
  */
 int main(void)
 {
