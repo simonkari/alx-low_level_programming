@@ -4,6 +4,7 @@
  * Return 0 (Success)
  * The main function returns an integer, return 0 to indicate success.
  * The main function returns an integer value, which represents the exit status of the program
+ * In this case, we simply return 0 to indicate that the program executed successfully.
  */
 int main(void)
 {
