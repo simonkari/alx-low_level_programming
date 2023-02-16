@@ -7,7 +7,10 @@
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n")
-return (0);
+    /* Use printf to print the required message with proper grammar */
+    printf("%s, %s\n", "with proper grammar", "but the outcome is a piece of art");
+
+    /* Return 0 to indicate that the program executed successfully */
+    return (0);
 }
 
