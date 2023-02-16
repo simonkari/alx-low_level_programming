@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- * The main returns integer value. return 0 to indicate that the program executed successfully
+ * The main returns integer value. return 0 to indicates success
  */
 int main(void)
 {
