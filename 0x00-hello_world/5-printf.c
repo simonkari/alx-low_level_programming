@@ -8,7 +8,7 @@
 int main(void)
 {
 /* Use printf to printi message with proper grammar */
-printf("%s, %s\n", "with proper grammar", "but the outcome is a piece of art");
+printf("%s, %s\n", "with proper grammar, but the outcome is a piece of art,");
 /* Return 0 to indicate program success */
 return (0);
 }
