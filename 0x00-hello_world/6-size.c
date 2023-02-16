@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints the size of various computer types
- * Return 0 (Success)
+ * Return: 0 (Success)
  * Description: The main function returns an integer,
  * return 0 to indicate success.
  * return 0 to indicate that the program executed successfully.
