@@ -2,27 +2,27 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char c;
+    char c;
 
-	char d;
+    /* Print lowercase alphabet */
+    for (c = 'a'; c <= 'z'; c++)
+    {
+        putchar(c);
+    }
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
-			d++;
-		}
-	putchar('\n');
-	return (0);
+    /* Print uppercase alphabet */
+    for (c = 'A'; c <= 'Z'; c++)
+    {
+        putchar(c);
+    }
+
+    /* Print new line */
+    putchar('\n');
+
+    return (0);
 }
+
