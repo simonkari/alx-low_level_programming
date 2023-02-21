@@ -5,10 +5,8 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-    time_table();
+    times_table();
     return (0);
-
 }
