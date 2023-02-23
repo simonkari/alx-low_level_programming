@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_number - trint intager
+ * print_number - print integer
  * @n: integer to be printed
- * Return: northing
+ * Return: nothing
 */
 
 void print_number(int n)
