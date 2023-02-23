@@ -2,14 +2,14 @@
 #include <math.h>
 
 /**
- * main - print the largest prime factor of 6127852475143
+ * main - print the largest prime factor of 612852475143
  * Return: Always (0)
 */
 
 int main(void)
 {
 long x, maxf;
-long number = 612852475243;
+long number = 612852475143;
 double square = sqrt(number);
 
 for (x = 1; x <= square; x++)
