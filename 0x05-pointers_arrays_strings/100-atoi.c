@@ -1,5 +1,4 @@
 #include "main.h"
-#include <bits/stdc++.h>
 
 /**
  * _atoi - convert a string to integer
