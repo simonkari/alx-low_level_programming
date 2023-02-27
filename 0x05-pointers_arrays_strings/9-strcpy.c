@@ -1,4 +1,5 @@
 #include "main.h"
+#define _CRT_SECURE_NO_DEPRECATE
 
 /**
  * _strcpy - copy a string
