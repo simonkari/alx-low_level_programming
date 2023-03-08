@@ -2,8 +2,7 @@
 
  /**
  * factorial - gets factorial of n
- * @n: integer
- *
+ * @n: the number to calculate the factorial
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -15,6 +14,5 @@ return (-1);
 
 if (n <= 1)
 return (1);
-
 return (n * factorial(n - 1)); 
 }
