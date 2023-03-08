@@ -1,16 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - calculate the length of a string
- * @s: the string to count
- * description: _strlen_recursion - Returns Length of String
- * return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- * ecursively computes the length of a string.
+ * _strlen_recursion - Returns Length of String
+ * @s: string
  *
- * @param str a pointer to a string
- * @return the length of the string, or 0 if the string is empty
-*/
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 
 int _strlen_recursion(char *s)
 {
