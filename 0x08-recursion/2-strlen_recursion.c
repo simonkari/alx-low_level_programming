@@ -5,6 +5,7 @@
  * @s: the string to count
  * description: _strlen_recursion - Returns Length of String
  * return: integer value
+ * On error, -1 is returned, and errno is set appropriately.
 */
 
 int _strlen_recursion(char *s)
