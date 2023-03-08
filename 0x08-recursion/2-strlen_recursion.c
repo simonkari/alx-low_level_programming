@@ -4,7 +4,7 @@
  * _strlen_recursion - calculate the length of a string
  * @s: the string to count
  * description: _strlen_recursion - Returns Length of String
- * return: integer value
+ * return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  * ecursively computes the length of a string.
  *
