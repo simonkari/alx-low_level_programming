@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of char
- * @size:the size of an array
- * @c: the char to fill in the array
- * return: the array filled
-*/
+ * *malloc_checked - allocate memory with malloc
+ * @b: unsigned int type
+ * Return: return pointer
+ */
 char *create_array(unsigned int size, char c)
 {
 unsigned int i;
