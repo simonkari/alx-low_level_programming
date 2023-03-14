@@ -9,9 +9,6 @@
 */
 char *_strdup(char *str)
 {
- // Function body
-
-
 int a = 0, i = 1;
 char *s;
 
