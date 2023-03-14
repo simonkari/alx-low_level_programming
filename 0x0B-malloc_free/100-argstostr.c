@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- * argstostr  - convert the params passed to the program to string
  * argstostr - convert arguments on command line to strings
  * @av: represent the arguments to be converted.
  * @ac: the argument count
