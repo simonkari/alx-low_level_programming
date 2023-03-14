@@ -8,7 +8,7 @@
  * @av: represent the arguments to be converted.
  * @ac: the argument count
  * @ac: the argument vector
- * return: A pointer to the resulting string, or NULL if an error occurred.
+ * return: Return: arguments as strings
 */
 char *argstostr(int ac, char **av)
 {
