@@ -6,7 +6,7 @@ int count_words(char *str);
 char **strtow(char *str);
 
 /**
- * word_len - locate the index marketing the end of the 
+ * word_len - locate the index marketing the end of the
  * first word contained within a string
  * @str: the string to be searched
  * return: the index marketing the end of the initial
@@ -87,7 +87,7 @@ free(string);
 return (NULL);
 }
 for (l = 0; l < letters; l++)
-string[w][l] = str [index++];
+string[w][l] = str[index++];
 
 string[w][l] = '\0';
 }
