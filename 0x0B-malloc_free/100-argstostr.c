@@ -4,6 +4,8 @@
 
 /**
  * argstostr  - convert the params passed to the program to string
+ * argstostr - convert arguments on command line to strings
+ * @param av An array of strings representing the arguments to be converted.
  * @ac: the argument count
  * @ac: the argument vector
  * return: ...
@@ -27,7 +29,7 @@ j++;
 j = 0;
 i++;
 }
-s = malloc((sizeof(char) * ch) + ac +1);
+s = malloc((sizeof(char) * ch) +ac + 1);
 i = 0;
 while (av[i])
 {
