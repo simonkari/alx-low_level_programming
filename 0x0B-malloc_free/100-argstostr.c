@@ -3,48 +3,48 @@
 #include <stdlib.h>
 
 /**
- * *argstostr - convert arguments on command line to strings
- * @ac: int type
- * @av: pointer to array
- * Return: arguments as strings
- */
-
+ * argstostr  - convert the params passed to the program to string
+ * @ac: the argument count
+ * @ac: the argument vector
+ * return: ...
+*/
 char *argstostr(int ac, char **av)
 {
-	int size, count, count1, count2 = 0;
-	char *ptr;
+int ch = 0, i = 0, j = 0, k = 0;
+char *s;
 
-	if (ac == 0 || av == NULL)
-	{
-		return (NULL);
-	}
+if (ac == 0 || av == NULL)
+return (NULL);
 
-	for (count = 0; count < ac; count++)
-	{
-		for (count1 = 0; av[count][count1] != '\0'; count1++)
-		{
-			size += 1;
-		}
-		size += 1;
-	}
-	size += 1;
+while (i < ac)
+{
+while (av[i][j])
+{
+ch++;
+j++;
+}
 
-	ptr = malloc(sizeof(char) * size);
-	if (ptr == NULL)
-	{
-		free(ptr);
-		return (NULL);
-	}
-	for (count = 0; count < ac; count++)
-	{
-		for (count1 = 0; av[count][count1] != '\0'; count1++)
-		{
-			ptr[count2] = av[count][count1];
-			count2++;
-		}
-		ptr[count2] = '\n';
-		count2++;
-	}
-	ptr[count2] = '\0';
-	return (ptr);
+j = 0;
+i++;
+}
+s = malloc((sizeof(char) * ch) + ac + 1);
+
+i = 0;
+while (av[i])
+{
+while (av [i][j])
+{
+s[k] = av[i][j];
+k++;
+j++;
+}
+s[k] = '\n';
+
+j = 0;
+k++;
+i++;
+}
+k++;
+s[k] = '\0';
+return (s);
 }
