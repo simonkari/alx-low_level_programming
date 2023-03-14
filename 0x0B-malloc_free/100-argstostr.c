@@ -5,10 +5,10 @@
 /**
  * argstostr  - convert the params passed to the program to string
  * argstostr - convert arguments on command line to strings
- * @param av An array of strings representing the arguments to be converted.
+ * @av: represent the arguments to be converted.
  * @ac: the argument count
  * @ac: the argument vector
- * return: ...
+ * return: A pointer to the resulting string, or NULL if an error occurred.
 */
 char *argstostr(int ac, char **av)
 {
