@@ -49,11 +49,11 @@ return (words);
 
 /**
  * strtow - splits a string into words
- * plits a string into words and returns 
+ * plits a string into words and returns
  * a dynamically allocated array of strings.
  * Returns NULL if the input string is empty or if memory allocation fails.
  * @str:the string to be split
- * @return A dynamically allocated array of strings, or 
+ * @return A dynamically allocated array of strings, or
  * NULL if the input string is empty or memory allocation fails.
  * return: if str = NULL, str = "", or the function fails - NULL
  * otherwise - a pointer to an array of strings (words)
