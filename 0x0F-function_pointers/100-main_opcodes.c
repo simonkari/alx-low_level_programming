@@ -35,10 +35,8 @@ printf("%.2x", opcode);
 if (index == bytes - 1)
 continue;
 printf(" ");
-
 address++;
 }
 printf("\n");
-
 return (0);
 }
