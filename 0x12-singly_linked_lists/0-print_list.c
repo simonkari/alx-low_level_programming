@@ -23,5 +23,6 @@ printf("[%d] %s\n", 0, "(nil)");
 h = h->next;
 }
 }
+
 return (i);
 }
