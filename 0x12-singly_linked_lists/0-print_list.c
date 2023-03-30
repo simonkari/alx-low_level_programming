@@ -1,9 +1,10 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
-  * print_list -fills memory with a constant byte
-  * @h:is the owner of the dog
-  * Return:a number
+  * print_list - Print all the elements of a list_t list
+  * @h: is the owner of the dog
+  * Return: the number of nodes in the list_t list
   */
 
 size_t print_list(const list_t *h)
