@@ -7,7 +7,8 @@
  * @letters: letters to be read and printed
  * Description: Write a function and prints it
  * to the POSIX standard output.
- * Return: the actual number of letters it could read and print, or 0 if there was an error
+ * Return: the actual number of letters it could read and print, 
+ * or 0 if there was an error
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
