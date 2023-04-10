@@ -3,7 +3,6 @@
 /**
  * binary_to_uint - Convert a binary to an unsigned int.
  * @b:Pointer to a string of 0 and 1 chars.
- *
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
  * Otherwise - the converted number.
  */
@@ -33,5 +32,4 @@ i--;
 
 /*return converted integer*/
 return (res);
-
 }
