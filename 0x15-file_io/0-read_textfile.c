@@ -13,7 +13,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 
-ssize_t file, let, w;
+ssize_t file, gk_read_check, gk_count;
 char *text;
 
 /*check file validity*/
@@ -32,12 +32,12 @@ free(text);
 return (0);
 }
 
-let = read(file, text, letters);
+gk_read_check = read(file, text, letters);
 
-w = write(STDOUT_FILENO, text, let);
+gk_count = write(STDOUT_FILENO, text, gk_read_check);
 
 close(file);
 
 /*return number of letters written to the standard output*/
-return (w);
+return (gk_count);
 }
