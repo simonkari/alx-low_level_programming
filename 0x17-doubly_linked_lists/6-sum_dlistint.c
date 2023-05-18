@@ -4,7 +4,6 @@
  * get_dnodeint_at_index - Locates a node
  * @head: Head of the dlistint_t list.
  * @index: node to locate.
- *
  * Return: If the node does not exist - NULL.
  *         Otherwise - the address of the located node.
  */
