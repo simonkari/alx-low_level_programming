@@ -1,17 +1,16 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - Locates a node
- * @head: Head of the dlistint_t list.
- * @index: node to locate.
- * Return: If the node does not exist - NULL.
- *         Otherwise - the address of the located node.
- */
+ * sum_dlistint - returns the dlistint_t list.
+ * @head: pointer to the list.
+ * Return: sum of all data in the list, 0 if the lost is empty.
+ **/
 
 int sum_dlistint(dlistint_t *head)
 {
 dlistint_t *node = head;
 int sum = 0;
+
 while (node)
 {
 sum += node->n;
