@@ -1,24 +1,37 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
- *  * _strpbrk - searches a string for any of a set of bytes
- * @s: the string
- * @accept: the bytes
- * Return: Where the bytes start to be found, or Null.
+ * _strpbrk - searches a string for any of a set of bytes.
+ * @s: pointer to Haystack
+ * @accept: pointer to search dearch from
+ * Return: pointer to the byte in s that matches one of
+ * the bytes in accept, or NULL if no such byte is found
  */
 
-char *_strpbrk(const char *s, const char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-int i = 0;
+int i;
 int j = 0;
+int check = 0;
+char *p = NULL;
 
-while (s[i]!= '\0')
+for (i = 0; s[i]; i++)
 {
-for (j = 0; accept[j]!= '\0'; j++)
+for (j = 0; accept[j]; j++)
 {
+check = 0;
 if (s[i] == accept[j])
-return ((char *)&s[i]);
+{
+p = (s + i);
+check = 1;
+break;
 }
-i++;
 }
-return (0);
+if (check == 1)
+{
+break;
+}
+}
+return (p);
 }
