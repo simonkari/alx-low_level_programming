@@ -3,7 +3,6 @@
 /**
  * hash_djb2 - Generates a hash value using the djb2 algorithm
  * @str: The string used to calculate the hash value
- *
  * return: resulting hash value
  */
 unsigned long int hash_djb2(const unsigned char *str)
