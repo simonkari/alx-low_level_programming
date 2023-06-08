@@ -2,8 +2,7 @@
 
 /**
  * Creates a new hash table with the specified size
- * @param size: The size of the array to be created 
- * for the hash table
+ * @size: The size of the array to be created for the hash table
  * Return: A pointer to the newly created hash table,
  * or NULL if the creation fails.
  */
