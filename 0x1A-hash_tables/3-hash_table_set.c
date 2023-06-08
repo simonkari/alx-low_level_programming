@@ -1,15 +1,17 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_set - adds an element to a hash table
- * @ht: target hash table to add or update the key/value
- * @key: key is string used for value lookup, cannot be empty string
- * @value: value associated with key, can be empty string
+ * hash_table_set - Adds or updates a key-value pair in a hash table.
+ * @ht: The target hash table to which the key-value pair
+ * will be added or updated.
+ * @key: The key string used for value lookup. It cannot be
+ * an empty string.
+ * @value: The value associated with the key. It can be an empty string.
  * Return: 1 on success, 0 on failure
  */
-
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
+
 unsigned long int index;
 hash_node_t *new, *temp;
 char *key_copy, *value_copy;
