@@ -18,7 +18,7 @@ for (index = 0; index < ht->size; index++)
 {
 	if (ht->array[index])
 	{
-		temp = ht->array[index];
+				temp = ht->array[index];
 		if (first)
 		{
 			printf("'%s': '%s'", temp->key,
