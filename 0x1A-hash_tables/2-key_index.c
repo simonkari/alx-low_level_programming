@@ -1,10 +1,12 @@
 #include "hash_tables.h"
 
 /**
- * key_index - gives the index at which to store a key in a hash table
+ * key_index - Calculates the index in a hash table where
+ * a key-value pair should be stored
  * @key: the key string to be hashed
- * @size: the size of the array of nodes
- * Return: index in array at which to store key and value, -1 on failure
+ * @size: The size of the array of nodes in the hash table.
+ * Return: The index in the array where the key and value
+ * should be stored, or -1 on failure.
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
