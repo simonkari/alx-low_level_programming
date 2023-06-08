@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * Deletes a hash table and frees the associated memory
+ * hash_table_delete - Deletes a hash table and frees the associated memory
  * @ht: The hash table to be deleted and its memory freed
  */
 void hash_table_delete(hash_table_t *ht)
