@@ -20,12 +20,14 @@ if (array)
 }
 
 /**
- * binary_search_index - Performs a binary search to find a value in a sorted array.
+ * binary_search_index - Performs a binary search to find a
+ * value in a sorted array.
  * @array: The array to search in.
  * @l: The left index of the array.
  * @r: The right index of the array.
  * @value: The value to search for.
- * Return: The index of the first occurrence of the value in the array, or -1 if not found.
+ * Return: The index of the first occurrence of the value in
+ * the array, or -1 if not found.
  */
 
 int binary_search_index(int *array, size_t l, size_t r, int value)
@@ -47,11 +49,13 @@ else
 }
 
 /**
- * binary_search - Performs a binary search to find a value in a sorted array.
+ * binary_search - Performs a binary search to find a
+ * value in a sorted array.
  * @array: The array to search in.
  * @size: The length of the array.
  * @value: The value to search for.
- * Return: The index of the value in the array, or -1 if not found.
+ * Return: The index of the value in the array, or -1
+ * if not found.
  */
 
 int binary_search(int *array, size_t size, int value)
